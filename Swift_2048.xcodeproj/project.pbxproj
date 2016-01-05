@@ -22,6 +22,7 @@
 		18F41DFF1C3C295F001E41BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F41E021C3C295F001E41BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F41E041C3C295F001E41BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F41E0D1C3C2D59001E41BF /* Swift-2048.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Swift-2048.playground"; path = "DebugFiles/Swift-2048.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		18F41DF71C3C295E001E41BF /* Swift_2048 */ = {
 			isa = PBXGroup;
 			children = (
+				18F41E0A1C3C2C9F001E41BF /* DebugFiles */,
 				18F41DF81C3C295F001E41BF /* AppDelegate.swift */,
 				18F41DFA1C3C295F001E41BF /* ViewController.swift */,
 				18F41DFC1C3C295F001E41BF /* Main.storyboard */,
@@ -62,6 +64,14 @@
 				18F41E041C3C295F001E41BF /* Info.plist */,
 			);
 			path = Swift_2048;
+			sourceTree = "<group>";
+		};
+		18F41E0A1C3C2C9F001E41BF /* DebugFiles */ = {
+			isa = PBXGroup;
+			children = (
+				18F41E0D1C3C2D59001E41BF /* Swift-2048.playground */,
+			);
+			name = DebugFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
