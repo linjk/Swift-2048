@@ -26,6 +26,11 @@ class ViewController: UIViewController {
         alertView.message = "Game is ready, you ready?"
         alertView.addButtonWithTitle("GO")
         alertView.show()
+        alertView.delegate = self
+    }
+    
+    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex:Int){
+        self.presentViewController(MainTabViewController(), animated: true, completion: nil)
     }
 }
 
